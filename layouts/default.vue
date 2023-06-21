@@ -1,15 +1,9 @@
 <template>
-    <div>
-        <header>
-            <Navbar></Navbar>
-        </header>
-        <main>
-            <slot></slot>
-        </main>
-        <Footer></Footer>
-    </div>
+    <header>
+        <Navbar></Navbar>
+    </header>
+    <main>
+        <slot></slot>
+    </main>
+    <Footer></Footer>
 </template>
-
-<script setup>
-    const currentYear = new Date().getUTCFullYear();
-</script>

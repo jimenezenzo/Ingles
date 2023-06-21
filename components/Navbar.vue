@@ -8,18 +8,18 @@
             </div>
             <div class="flex pl-4 text-sm">
                 <ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
-                <li class="mr-2">
-                    <NuxtLink class="inline-block py-2 px-2 text-white no-underline" to="/">HOME</NuxtLink>
-                </li>
-                <li class="mr-2">
-                    <NuxtLink class="inline-block py-2 px-2 text-white no-underline" to="/post">POST</NuxtLink>
-                </li>
-                <li class="mr-2">
-                    <NuxtLink class="inline-block py-2 px-2 text-white no-underline" to="/post">POST</NuxtLink>
-                </li>
                     <li class="mr-2">
-                    <NuxtLink class="inline-block py-2 px-2 text-white no-underline" to="/post">POST</NuxtLink>
-                </li>
+                        <NuxtLink class="inline-block py-2 px-2 text-white no-underline" to="/">HOME</NuxtLink>
+                    </li>
+                    <li class="mr-2">
+                        <NuxtLink class="inline-block py-2 px-2 text-white no-underline" to="/posts/welcome-to-ghostwind-css">POST</NuxtLink>
+                    </li>
+                    <li class="mr-2">
+                        <NuxtLink class="inline-block py-2 px-2 text-white no-underline" to="/posts/welcome-to-ghostwind-css">POST</NuxtLink>
+                    </li>
+                        <li class="mr-2">
+                        <NuxtLink class="inline-block py-2 px-2 text-white no-underline" to="/posts/welcome-to-ghostwind-css">POST</NuxtLink>
+                    </li>
                 </ul>
             </div>
         </div>
