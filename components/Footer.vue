@@ -1,0 +1,28 @@
+<template class="bg-gray-900">
+    <div class="container max-w-6xl mx-auto flex items-center px-2 py-8">
+        <div class="w-full mx-auto flex flex-wrap items-center">
+            <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
+                <NuxtLink class="text-gray-900 no-underline hover:text-gray-900 hover:no-underline" to="/index">
+                    <span class="text-base text-gray-200">Lengua y Literatura</span>
+                </NuxtLink>
+            </div>
+            
+            <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
+                <ul class="list-reset flex justify-center flex-1 md:flex-none items-center">
+                  <li>
+                    <NuxtLink to="/index" class="inline-block py-2 px-3 text-gray-900 no-underline">HOME</NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink to="/post" class="inline-block py-2 px-3 text-gray-900 no-underline">LINK</NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink to="/post" class="inline-block py-2 px-3 text-gray-900 no-underline">LINK</NuxtLink>
+                  </li>
+                    <li>
+                    <NuxtLink to="/post" class="inline-block py-2 px-3 text-gray-900 no-underline">LINK</NuxtLink>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>
