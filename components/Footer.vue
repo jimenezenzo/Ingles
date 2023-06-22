@@ -7,7 +7,7 @@
                 </NuxtLink>
             </div>
             
-            <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
+            <!-- <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
                 <ul class="list-reset flex justify-center flex-1 md:flex-none items-center">
                   <li>
                     <NuxtLink to="/posts/welcome-to-ghostwind-css" class="inline-block py-2 px-3 text-gray-900 no-underline">HOME</NuxtLink>
@@ -22,7 +22,7 @@
                     <NuxtLink to="/posts/welcome-to-ghostwind-css" class="inline-block py-2 px-3 text-gray-900 no-underline">LINK</NuxtLink>
                   </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>

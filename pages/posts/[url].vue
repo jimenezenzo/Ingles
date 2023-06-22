@@ -2,7 +2,7 @@
     <!--Title-->
     <div class="text-center pt-16 md:pt-32">
         <p class="text-sm md:text-base text-green-500 font-bold">08 APRIL 2019 <span class="text-gray-900">/</span> GETTING STARTED</p>
-        <h1 class="font-bold break-normal text-3xl md:text-5xl">{{ post.title }}</h1>
+        <h1 class="font-bold break-normal text-3xl md:text-5xl">{{ post?.title }}</h1>
     </div>
     
     <!--image-->
@@ -13,33 +13,25 @@
         <div class="mx-0 sm:mx-6">
             <div class="bg-white w-full p-8 md:p-24 text-xl md:text-2xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
                 <p class="text-2xl md:text-3xl mb-5">
-                    {{ post.subtitle }}
+                    {{ post?.subtitle }}
                 </p>
     
-                <p class="py-6">
-                    {{ post.body }}
-                </p>				
+                <section class="py-6" v-html="post?.body"></section>				
             </div>
         </div>
     </div>
 </template>
     
 <script setup lang="ts">
-    interface Post {
-        title: string,
-        subtitle: string,
-        body: string,
-        url: string
-    }
-
+    import { isArray } from 'util';
+import { Post } from '~/types';
     const route = useRoute()
     const url = route.params.url
-    const post = ref()
-    
-    const { data } = await useFetch<Post[]>('/api/data')
-    post.value = data.value?.find(p => p.url == url)
+
+    const post = ref<Post>()
+    post.value = usePostByUrl(url)
 
     useHead({
-        title: post.value.title
+        title: post.value?.title
     })
 </script>
