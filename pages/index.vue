@@ -3,18 +3,14 @@
 	<div class="w-full m-0 p-0 bg-cover bg-bottom estilos-index">
 		<div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
 			<!--Title-->
-				<p class="text-white font-extrabold text-3xl md:text-5xl">
-					Lengua y Literatura
-				</p>
+				<p class="text-white font-extrabold text-3xl md:text-5xl">Lengua y Literatura</p>
 				<p class="text-xl md:text-2xl text-white">Bienvenido al curso</p>
 		</div>
 	</div>
-		
-		<!--Container-->
-		<div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
-			<div class="mx-0 sm:mx-6">
-				<div class="bg-gray-200 p-4 w-full text-xl md:text-2xl text-gray-800 leading-normal rounded-t">
-					
+	<!--Container-->
+	<div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+		<div class="mx-0 sm:mx-6">
+			<div class="bg-gray-200 p-4 w-full text-xl md:text-2xl text-gray-800 leading-normal rounded-t">
 				<!--Lead Card-->
 				<div class="flex h-full bg-white rounded overflow-hidden shadow-lg">
 					<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg p-5">
@@ -32,96 +28,14 @@
 
 				<!--Posts Container-->
 				<div class="flex flex-wrap justify-between pt-12 -mx-6">
-					<!--1/2 col -->
-					<div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
-						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<NuxtLink to="/posts/welcome-to-ghostwind-css" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/3657445/800x600" class="h-full w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum eu nunc commodo posuere et sit amet ligula. 
-								</p>
-							</NuxtLink>
-						</div>
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
-							</div>
-						</div>
-					</div>
-
-					<!--1/2 col -->
-					<div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
-						<div class="flex-1 flex-row bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<NuxtLink to="/posts/welcome-to-ghostwind-css" class="flex flex-wrap no-underline hover:no-underline">	
-								<img src="https://source.unsplash.com/collection/764827/800x600" class="h-full w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum eu nunc commodo posuere et sit amet ligula. 
-								</p>
-							</NuxtLink>
-						</div>
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
-							</div>
-						</div>
-					</div>
-
 					<!--1/3 col -->
-					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+					<div v-for="post in posts" class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<NuxtLink to="/posts/welcome-to-ghostwind-css" class="flex flex-wrap no-underline hover:no-underline">
+							<NuxtLink :to="`/posts/${post.url}`" class="flex flex-wrap no-underline hover:no-underline">
 								<img src="https://source.unsplash.com/collection/225/800x600" class="h-64 w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
-								</p>
-							</NuxtLink>
-						</div>
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
-							</div>
-						</div>
-					</div>
-				
-					<!--1/3 col -->
-					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<NuxtLink to="/posts/welcome-to-ghostwind-css" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/3106804/800x600" class="h-64 w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full font-bold text-xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ip Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
-								</p>
-							</NuxtLink>
-						</div>
-						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
-							<div class="flex items-center justify-between">
-								<img class="w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Author Name" src="http://i.pravatar.cc/300" alt="Avatar of Author">
-								<p class="text-gray-600 text-xs md:text-sm">1 MIN READ</p>
-							</div>
-						</div>
-					</div>
-
-					<!--1/3 col -->
-					<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-							<NuxtLink to="/posts/welcome-to-ghostwind-css" class="flex flex-wrap no-underline hover:no-underline">
-								<img src="https://source.unsplash.com/collection/539527/800x600" class="h-64 w-full rounded-t pb-6">
-								<p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p>
-								<div class="w-full  font-bold text-xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
-								<p class="text-gray-800 font-serif text-base px-6 mb-5">
-									Lorem ipsum eu nunc commodo posuere et sit amet ligula. 
-								</p>
+								<!-- <p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p> -->
+								<div class="w-full font-bold text-xl text-gray-900 px-6">{{ post.title }}</div>
+								<p class="text-gray-800 font-serif text-base px-6 mb-5">{{ post.subtitle }}</p>
 							</NuxtLink>
 						</div>
 						<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
@@ -138,9 +52,13 @@
 </template>
 
 <script setup lang="ts">
+	import { usePosts } from '~/composables/post';
+
 	useHead({
 		title: 'Lengua y Literatura'
 	})
+
+	const posts = usePosts()
 </script>
 
 <style>

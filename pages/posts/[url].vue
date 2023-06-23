@@ -2,7 +2,7 @@
     <!--Title-->
     <div class="text-center pt-16 md:pt-32">
         <p class="text-sm md:text-base text-green-500 font-bold">08 APRIL 2019 <span class="text-gray-900">/</span> GETTING STARTED</p>
-        <h1 class="font-bold break-normal text-3xl md:text-5xl">{{ post?.title }}</h1>
+        <h1 class="font-bold break-normal text-3xl md:text-5xl">{{ post.title }}</h1>
     </div>
     
     <!--image-->
@@ -12,26 +12,23 @@
     <div class="container max-w-5xl mx-auto -mt-32">
         <div class="mx-0 sm:mx-6">
             <div class="bg-white w-full p-8 md:p-24 text-xl md:text-2xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
-                <p class="text-2xl md:text-3xl mb-5">
-                    {{ post?.subtitle }}
-                </p>
-    
-                <section class="py-6" v-html="post?.body"></section>				
+                <p class="text-2xl md:text-3xl mb-5">{{ post.subtitle }}</p>
+                <section class="py-6" v-html="post.body"></section>
             </div>
         </div>
     </div>
 </template>
     
 <script setup lang="ts">
-    import { isArray } from 'util';
-import { Post } from '~/types';
-    const route = useRoute()
-    const url = route.params.url
+    import { useFindPostByUrl } from '~/composables/post';
 
-    const post = ref<Post>()
-    post.value = usePostByUrl(url)
+    const route = useRoute()
+    const url = Array.isArray(route.params.url) ? route.params.url[0] : route.params.url
+
+    const post = useFindPostByUrl(url)
+    if(post === undefined) throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
 
     useHead({
-        title: post.value?.title
+        title: post.title
     })
 </script>

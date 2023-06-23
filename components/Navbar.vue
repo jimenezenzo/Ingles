@@ -6,7 +6,7 @@
                     <span class="hidden w-0 md:w-auto md:block pl-1">Lengua y Literatura</span>
                 </NuxtLink>
             </div>
-            <div class="flex pl-4 text-sm">
+            <!-- <div class="flex pl-4 text-sm">
                 <ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
                     <li class="mr-2">
                         <NuxtLink class="inline-block py-2 px-2 text-white no-underline" to="/">HOME</NuxtLink>
@@ -21,7 +21,7 @@
                         <NuxtLink class="inline-block py-2 px-2 text-white no-underline" to="/posts/welcome-to-ghostwind-css">POST</NuxtLink>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </nav>
 </template>
