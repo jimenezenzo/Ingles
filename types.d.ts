@@ -1,6 +1,7 @@
 export interface Post {
-    title: string,
-    subtitle: string,
+    titulo: string,
+    resumen: string,
     body: string,
-    url: string
+    url: string,
+    imgDestacada: string
 }
