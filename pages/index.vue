@@ -14,19 +14,10 @@
 				<!--Lead Card-->
 				<div class="flex h-full bg-white rounded overflow-hidden shadow-lg">
 					<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg p-5">
-						<div class="w-full font-bold text-xl text-gray-900 mb-5">Welcome fellow Tailwind CSS and Ghost fan</div>
-						<p class="text-gray-800 font-serif text-base">
-							This starter template is an attempt to replicate the default Ghost theme "Casper" using Tailwind CSS and vanilla Javascript.
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor accusantium cupiditate hic temporibus blanditiis nam iusto tempora suscipit adipisci ratione! Sint quas ratione dolore odit doloribus voluptatum corporis animi nemo?
-							Veniam, aliquid. Vitae aliquid, officiis unde voluptatibus tempore voluptatem cupiditate magnam tenetur! Excepturi quidem, neque laudantium rerum eligendi necessitatibus exercitationem fugiat soluta ex debitis qui odit nesciunt eum. Recusandae, nostrum?
-							Qui vero possimus nam, odio culpa sequi expedita delectus cupiditate vel rem assumenda. Quos consequuntur alias quam ullam, natus in reiciendis sunt vero libero doloribus reprehenderit pariatur velit repellat eaque?
-							Ullam enim veritatis autem aspernatur maiores non necessitatibus, omnis, repudiandae nam neque debitis dolorem praesentium. Alias maxime temporibus ab id vero, deleniti impedit, asperiores iusto eius aspernatur minus eum cupiditate.
-							Quibusdam corporis laboriosam quidem libero quos nulla, voluptate quod fuga architecto facilis laudantium magnam distinctio necessitatibus, repudiandae dicta repellendus quas unde eligendi officia? Sapiente, distinctio consequatur! Sequi officiis quod totam.
-						</p>
+						<RichText :block="{body: presentacion.attributes.descripcion}"></RichText>
 					</div>
 				</div>
-
-				<!--Posts Container-->
+				
 				<Posts></Posts>
 			</div>
 		</div>
@@ -34,9 +25,13 @@
 </template>
 
 <script setup lang="ts">
+	import { usePresentacion } from '~/composables/post';
+
 	useHead({
 		title: 'Lengua y Literatura'
 	})
+
+	const presentacion = usePresentacion()
 </script>
 
 <style>

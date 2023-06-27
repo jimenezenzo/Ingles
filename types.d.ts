@@ -7,3 +7,6 @@ export interface Post {
     url: string,
     imgdestacada: Strapi4ResponseMany<{url: string}>
 }
+export interface Presentacion {
+    descripcion: string
+}

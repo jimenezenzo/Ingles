@@ -1,5 +1,6 @@
 <template>
-    <div class="flex flex-wrap justify-between pt-12 -mx-6">
+    <p class="text-xl md:text-2xl text-gray pt-10 uppercase text-center">Clases</p>
+    <div class="flex flex-wrap justify-between -mx-6">
         <!--1/3 col -->
         <div v-for="post in posts" class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
@@ -22,6 +23,9 @@
 
 <script setup lang="ts">
     import { usePosts } from '~/composables/post';
-
-    const posts = usePosts()
+    const props = defineProps<{
+        url?: string
+    }>()
+    const data = usePosts()
+    const posts = props.url ? data.value.filter(p => p.attributes.url !== props.url) : data.value
 </script>

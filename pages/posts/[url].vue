@@ -13,13 +13,13 @@
         <div class="mx-0 sm:mx-6">
             <div class="bg-white w-full p-8 md:p-24 text-xl md:text-2xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
                 <p class="text-2xl md:text-3xl mb-5">{{ post.attributes.resumen }}</p>
-                <section class="py-6" v-html="post.attributes.body"></section>
+                <RichText :block="post.attributes"></RichText>
             </div>
         </div>
     </div>
 
     <div class="container mx-auto">
-        <Posts></Posts>
+        <Posts :url="url"></Posts>
     </div>
 </template>
     
