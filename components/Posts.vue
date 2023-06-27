@@ -3,11 +3,11 @@
         <!--1/3 col -->
         <div v-for="post in posts" class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-                <NuxtLink :to="`/posts/${post.url}`" class="flex flex-wrap no-underline hover:no-underline">
-                    <img :src="post.imgDestacada" class="h-64 w-full rounded-t pb-6">
+                <NuxtLink :to="`/posts/${post.attributes.url}`" class="flex flex-wrap no-underline hover:no-underline">
+                    <img :src="post.attributes.imgdestacada.data[0].attributes.url" class="h-64 w-full rounded-t pb-6">
                     <!-- <p class="w-full text-gray-600 text-xs md:text-sm px-6">GETTING STARTED</p> -->
-                    <div class="w-full font-bold text-xl text-gray-900 px-6">{{ post.titulo }}</div>
-                    <p class="text-gray-800 font-serif text-base px-6 mb-5">{{ post.resumen }}</p>
+                    <div class="w-full font-bold text-xl text-gray-900 px-6">{{ post.attributes.titulo }}</div>
+                    <p class="text-gray-800 font-serif text-base px-6 mb-5">{{ post.attributes.resumen }}</p>
                 </NuxtLink>
             </div>
             <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">

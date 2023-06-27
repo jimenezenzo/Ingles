@@ -1,7 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { type Post } from './types';
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss"]
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/strapi",
+    '@nuxt/content',
+  ],
+  strapi: {
+    url: import.meta.env.VITE_API_URL
+  },
 })
