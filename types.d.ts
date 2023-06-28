@@ -5,8 +5,17 @@ export interface Post {
     resumen: string,
     body: string,
     url: string,
-    imgdestacada: Strapi4ResponseMany<{url: string}>
+    imgdestacada: Strapi4ResponseMany<{url: string}>,
+    referencias: Strapi4ResponseMany<Referencia>,
+    padlet: string
 }
+
 export interface Presentacion {
     descripcion: string
+}
+
+export interface Referencia {
+    body: string,
+    titulo: string,
+    url: string
 }

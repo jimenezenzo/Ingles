@@ -3,17 +3,17 @@
 </template>
 
 <script lang="ts" setup>
-const props = defineProps({
-  block: {
-    type: Object,
-    required: true,
-  },
-});
-onBeforeMount(() => {
-  !["body"].every((propName) => props.block.hasOwnProperty(propName))
-    ? console.error(`RichText.vue has not pass the block property validation`)
-    : null;
-});
+  const props = defineProps({
+    block: {
+      type: Object,
+      required: true,
+    },
+  });
+  onBeforeMount(() => {
+    !["body"].every((propName) => props.block.hasOwnProperty(propName))
+      ? console.error(`RichText.vue has not pass the block property validation`)
+      : null;
+  });
 </script>
 
 <style scoped>

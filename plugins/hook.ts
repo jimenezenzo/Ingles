@@ -12,7 +12,7 @@ export default defineNuxtPlugin((nuxtApp) => {
 
 const cargarPosts = async () => {
     const { find } = useStrapi()
-    const { data } = await find<Post>('posts', {populate: 'imgdestacada'})
+    const { data } = await find<Post>('posts', {populate: '*'})
     return data
 }
 

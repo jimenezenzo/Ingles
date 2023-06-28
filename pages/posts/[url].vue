@@ -1,25 +1,33 @@
-<template class="bg-white font-sans leading-normal tracking-normal">
-    <!--Title-->
+<template class="bg-white leading-normal tracking-normal">
     <div class="text-center pt-16 md:pt-32">
-        <p class="text-sm md:text-base text-green-500 font-bold">08 APRIL 2019 <span class="text-gray-900">/</span> GETTING STARTED</p>
+        <p class="text-sm md:text-base text-green-500 font-bold">08 APRIL 2019</p>
         <h1 class="font-bold break-normal text-3xl md:text-5xl">{{ post.attributes.titulo }}</h1>
     </div>
+
+    <div class="container max-w-6xl mx-auto bg-white bg-cover mt-8 rounded" :style="`background-image:url('${post.attributes.imgdestacada.data[0].attributes.url}'); height: 75vh;`"></div>
     
-    <!--image-->
-    <div class="container w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded" :style="`background-image:url('${post.attributes.imgdestacada.data[0].attributes.url}'); height: 75vh;`"></div>
-    
-    <!--Container-->
     <div class="container max-w-5xl mx-auto -mt-32">
         <div class="mx-0 sm:mx-6">
-            <div class="bg-white w-full p-8 md:p-24 text-xl md:text-2xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+            <div class="bg-white w-full p-8 md:p-24 text-xl md:text-2xl text-gray-800 leading-normal">
                 <p class="text-2xl md:text-3xl mb-5">{{ post.attributes.resumen }}</p>
                 <RichText :block="post.attributes"></RichText>
+                <div v-if="post.attributes.referencias.data.length > 0">
+                    <h2 class="font-bold break-normal text-2xl md:text-3xl pt-5">Referencias</h2>
+                    <ul class="p-2">
+                        <li v-for="referencia in post.attributes.referencias.data" class="list-disc">
+                            <NuxtLink :to="`/referencias/${referencia.attributes.url}`" class="text-blue-500">
+                                {{ referencia.attributes.titulo }}
+                            </NuxtLink>
+                        </li>
+                    </ul>
+                </div>
+                <div v-if="post.attributes.padlet" class="mt-4">
+                    <h3 class="text-2xl md:text-3xl pt-5 text-center mb-5">Padlet</h3>
+                    <div v-html="post.attributes.padlet"></div>
+                </div>
+                <Posts :url="url"></Posts>
             </div>
         </div>
-    </div>
-
-    <div class="container mx-auto">
-        <Posts :url="url"></Posts>
     </div>
 </template>
     

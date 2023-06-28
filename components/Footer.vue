@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-100 w-full shadow flex items-center py-8">
+    <div class="bg-gray-100 w-full shadow flex items-center py-8 mt-5">
         <div class="w-full container mx-auto flex flex-wrap items-center">
             <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
                 <NuxtLink class="no-underline" to="/">
