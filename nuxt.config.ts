@@ -4,6 +4,11 @@ import tailwindTypography from '@tailwindcss/typography'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  app: {
+    head: {
+      titleTemplate: 'Literatura | %s',
+    }
+  },
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/strapi",

@@ -7,7 +7,8 @@ export interface Post {
     url: string,
     imgdestacada: Strapi4ResponseMany<{url: string}>,
     referencias: Strapi4ResponseMany<Referencia>,
-    padlet: string
+    padlet: string,
+    createdAt: string
 }
 
 export interface Presentacion {

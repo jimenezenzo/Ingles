@@ -24,7 +24,7 @@
 	import { usePresentacion } from '~/composables/post';
 
 	useHead({
-		title: 'Lengua y Literatura'
+		title: 'Home'
 	})
 
 	const presentacion = usePresentacion()
