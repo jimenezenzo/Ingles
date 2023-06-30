@@ -1,7 +1,7 @@
 <template>
     <p class="text-xl md:text-2xl text-gray pt-10 uppercase text-center">Clases</p>
-    <div class="flex flex-wrap justify-between -mx-6">
-        <div v-for="post in posts" class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+    <div class="flex flex-wrap justify-between">
+        <div v-for="post in posts" class="w-full md:w-1/3 py-6 flex flex-col flex-grow flex-shrink">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
                 <NuxtLink :to="`/posts/${post.attributes.url}`" class="flex flex-wrap no-underline hover:no-underline">
                     <img :src="post.attributes.imgdestacada.data[0].attributes.url" class="h-64 w-full rounded-t pb-6">

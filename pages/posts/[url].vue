@@ -6,7 +6,7 @@
 
     <div class="max-w-6xl mx-auto bg-white mt-8 rounded fondo-image" :style="`background-image:url('${post.attributes.imgdestacada.data[0].attributes.url}');`"></div>
     
-    <div class="container max-w-5xl mx-auto -mt-32">
+    <div class="container max-w-5xl mx-auto md:-mt-32">
         <div class="mx-0 sm:mx-6">
             <div class="bg-white w-full p-8 md:p-24 text-xl md:text-2xl text-gray-800 leading-normal">
                 <p class="text-2xl md:text-3xl mb-5">{{ post.attributes.resumen }}</p>
@@ -56,9 +56,19 @@
     }
 
     .fondo-image { 
-        height: 75vh;
+        height: 30vh;
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
+    }
+
+    /* @media only screen and (max-width: 600px) {} */
+
+    /* @media only screen and (min-width: 600px) {} */
+
+    @media only screen and (min-width: 768px) {
+        .fondo-image {
+            height: 75vh;
+        }
     }
 </style>
