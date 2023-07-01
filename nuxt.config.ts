@@ -4,6 +4,7 @@ import tailwindTypography from '@tailwindcss/typography'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: false,
   app: {
     head: {
       titleTemplate: 'Literatura | %s',
