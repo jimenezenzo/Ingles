@@ -12,14 +12,19 @@ export default defineNuxtConfig({
   },
   modules: [
     "@nuxtjs/tailwindcss",
+    '@nuxtjs/color-mode',
     "@nuxtjs/strapi",
   ],
   strapi: {
     url: import.meta.env.VITE_API_URL
   },
+  colorMode: {
+    classSuffix: ''
+  },
   tailwindcss: {
     config: {
-      plugins: [tailwindTypography]
+      plugins: [tailwindTypography],
+      darkMode: 'class',
     }
   }
 })
