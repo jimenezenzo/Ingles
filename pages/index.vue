@@ -9,19 +9,16 @@
 
 		<div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
 			<div class="mx-0 sm:mx-6">
-				<div class="bg-gray-200 dark:bg-gray-700 p-4 w-full text-xl md:text-2xl text-gray-800 dark:text-gray-300 leading-normal rounded-t">
+				<div v-if="loadPosts" class="grid h-screen place-items-center">
+					<svg class="animate-spin m-auto" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M18.364 5.636L16.95 7.05A7 7 0 1 0 19 12h2a9 9 0 1 1-2.636-6.364Z"/></svg>
+				</div>
+				<div v-else class="bg-gray-200 dark:bg-gray-700 p-4 w-full text-xl md:text-2xl text-gray-800 dark:text-gray-300 leading-normal rounded-t">
 					<div class="flex h-full bg-white rounded overflow-hidden shadow-lg">
 						<div class="flex-1 bg-white dark:bg-gray-800 rounded-t rounded-b-none overflow-hidden shadow-lg p-5">
-							<RichText v-if="!loadPosts" :block="{body: presentacion.attributes.descripcion}"></RichText>
-							<p v-else>
-								<svg class="animate-spin m-auto" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M18.364 5.636L16.95 7.05A7 7 0 1 0 19 12h2a9 9 0 1 1-2.636-6.364Z"/></svg> Cargando presentacion...
-							</p>
+							<RichText :block="{body: presentacion.attributes.descripcion}"></RichText>
 						</div>
 					</div>
-					<Posts v-if="!loadPosts"></Posts>
-					<p v-else>
-						<svg class="animate-spin m-auto" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M18.364 5.636L16.95 7.05A7 7 0 1 0 19 12h2a9 9 0 1 1-2.636-6.364Z"/></svg> Cargando clases...
-					</p>
+					<Posts></Posts>
 				</div>
 			</div>
 		</div>
@@ -31,12 +28,12 @@
 <script setup lang="ts">
 	import { useLoadPosts, usePresentacion } from '~/composables/post';
 
+	const loadPosts = useLoadPosts()
+	const presentacion = usePresentacion()
+
 	useHead({
 		title: 'Home'
 	})
-
-	const loadPosts = useLoadPosts()
-	const presentacion = usePresentacion()
 </script>
 
 <style>

@@ -1,7 +1,7 @@
 <template>
-    <div v-if="loadPosts" class="h-screen m-auto">
-        <svg class="animate-spin" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M18.364 5.636L16.95 7.05A7 7 0 1 0 19 12h2a9 9 0 1 1-2.636-6.364Z"/></svg> Cargando clase...
-    </div>
+    <div v-if="loadPosts" class="grid h-screen place-items-center">
+		<svg class="animate-spin m-auto" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M18.364 5.636L16.95 7.05A7 7 0 1 0 19 12h2a9 9 0 1 1-2.636-6.364Z"/></svg>
+	</div>
     <div v-else class="leading-normal tracking-normal">
         <div class="text-center pt-16 md:pt-32">
             <h1 class="font-bold break-normal text-3xl md:text-5xl">{{ post?.attributes.titulo }}</h1>
@@ -46,14 +46,8 @@
     const post = computed(() => loadPosts.value == false ? useFindPostByUrl(url) : undefined)
     //if(post === undefined && !loadPosts) throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
 
-    const formatearFecha = (fecha: string) => {
-        const event = new Date(fecha);
-        const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
-        return event.toLocaleDateString('es-AR', options)
-    }
-
     useHead({
-        title: post ? post.value?.attributes.titulo : 'Cargando...'
+        title: post.value?.attributes.titulo
     })
 </script>
 
@@ -65,7 +59,7 @@
         background-size: contain;
     }
 
-    .recursos > div {
+    .recursos > * {
         margin-bottom: 25px;
     }
 
