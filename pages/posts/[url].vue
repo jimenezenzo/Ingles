@@ -26,7 +26,7 @@
                     </div>
                     <div v-if="post?.attributes.padlet" class="mt-4">
                         <h3 class="text-2xl md:text-3xl pt-5 text-center mb-5">Recursos</h3>
-                        <div class="recursos" v-html="post.attributes.padlet"></div>
+                        <div v-html="post.attributes.padlet" class="recursos"></div>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
 </template>
     
 <script setup lang="ts">
-    import { useFindPostByUrl } from '~/composables/post';
+    import { useFindPostByUrl, useLoadPosts } from '~/composables/post';
 
     const loadPosts = useLoadPosts()
 
@@ -59,13 +59,17 @@
         background-size: contain;
     }
 
-    .recursos > * {
+    .recursos :deep(*) {
         margin-bottom: 25px;
     }
 
     @media only screen and (min-width: 768px) {
         .fondo-image {
             height: 75vh;
+        }
+
+        .recursos :deep(*) {
+            margin-bottom: 40px;
         }
     }
 </style>

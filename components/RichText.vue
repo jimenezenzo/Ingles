@@ -9,15 +9,10 @@
       required: true,
     },
   });
-  // onBeforeMount(() => {
-  //   !["body"].every((propName) => props.block.hasOwnProperty(propName))
-  //     ? console.error(`RichText.vue has not pass the block property validation`)
-  //     : null;
-  // });
 </script>
 
 <style scoped>
     div {
-        max-width: 100%;
+      max-width: 100%;
     }
 </style>
