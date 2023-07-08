@@ -1,18 +1,10 @@
-import { Post, Presentacion } from "~/types"
+import { Post} from "~/types"
 
 export default defineNuxtPlugin((nuxtApp) => {
-    nuxtApp.hook('app:created', () => {
+    nuxtApp.hook('app:created', async () => {
+        const { find } = useStrapi()
         const posts = usePosts()
-        const presentacion = usePresentacion()
-        const loadPosts = useLoadPosts()
-        const { find, findOne } = useStrapi()
-
-        Promise.all([find<Post>('posts', {populate: '*'}), findOne<Presentacion>('presentacion')])
-            .then((response) => {
-                const [dataPosts, dataPresentacion] = response
-                posts.value = [...dataPosts.data]
-                presentacion.value = {...dataPresentacion.data}
-                loadPosts.value = false
-            })
+        const { data } = await find<Post>('posts', {populate: 'imgdestacada'})
+        posts.value = [...data]
     })
 })

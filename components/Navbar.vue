@@ -34,7 +34,8 @@
     const changeActive = () => isActive.value = !isActive.value
 
     const colorMode = useColorMode()
-    colorMode.preference = localStorage.getItem('theme') ?? 'light'
+
+    onMounted(() => colorMode.preference = localStorage.getItem('theme') ?? 'light')
 
     const changeColor = () => {
         if(colorMode.preference === 'light') {
