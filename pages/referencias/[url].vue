@@ -25,13 +25,15 @@
     import { Referencia } from '~/types';
 
     const route = useRoute()
+    const url = Array.isArray(route.params.url) ? route.params.url[0] : route.params.url
+
     const referencia = ref<Referencia>()
     const { find } = useStrapi()
-
 	const { data, pending, refresh, error } = await useAsyncData(
 		'referencias',
-		() => find<Referencia>('referencias', {filters: {url: route.params.url}})
+		() => find<Referencia>('referencias', {filters: {url}})
 	)
+
     if(data.value?.data.length === 0) throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
     if(data.value?.data !== undefined && data.value?.data.length > 0) referencia.value = {...data.value?.data[0].attributes}
 

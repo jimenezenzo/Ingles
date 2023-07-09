@@ -38,13 +38,14 @@
 <script setup lang="ts">
     import { Post } from '~/types';
 
-    const post = ref<Post>()
     const route = useRoute()
+    const url = Array.isArray(route.params.url) ? route.params.url[0] : route.params.url
 
+    const post = ref<Post>()
     const { find } = useStrapi()
 	const { data, pending, refresh, error } = await useAsyncData(
 		'posts',
-		() => find<Post>('posts', {filters: {url: route.params.url}, populate: '*'})
+		() => find<Post>('posts', {filters: {url}, populate: '*'})
 	)
     
     if(data.value?.data.length === 0) throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
