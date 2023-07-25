@@ -1,5 +1,5 @@
 <template>
-    <div class="sticky top-0 bg-teal-600">
+    <div class="sticky top-0 z-50 bg-teal-600">
         <nav class="flex items-center justify-between flex-wrap p-6">
             <div class="flex items-center flex-shrink-0 text-white mr-6">
                 <img src="/favicon.ico" alt="iconn" class="rounded w-10">
