@@ -54,6 +54,14 @@
     useHead({
         title: post.value?.titulo
     })
+
+    useSeoMeta({
+        title: post.value?.titulo,
+        ogTitle: post.value?.titulo,
+        description: post.value?.resumen,
+        ogDescription: post.value?.resumen,
+        ogImage: post.value?.imgdestacada.data[0].attributes.url,
+    })
 </script>
 
 <style scoped>
