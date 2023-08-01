@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     '@nuxtjs/color-mode',
     "@nuxtjs/strapi",
+    "@kevinmarrec/nuxt-pwa"
   ],
   strapi: {
     url: import.meta.env.VITE_API_URL
@@ -25,6 +26,14 @@ export default defineNuxtConfig({
     config: {
       plugins: [tailwindTypography],
       darkMode: 'class',
+    }
+  },
+  pwa: {
+    manifest: {
+      name: 'Literatura app',
+      short_name: 'Literatura app',
+      theme_color: '#0d9488',
+      lang: 'es',
     }
   }
 })
