@@ -15,10 +15,10 @@
 				<div v-else class="bg-gray-200 dark:bg-gray-700 p-4 w-full text-xl md:text-2xl text-gray-800 dark:text-gray-300 leading-normal rounded-t">
 					<div class="flex h-full bg-white rounded overflow-hidden shadow-lg">
 						<div class="flex-1 bg-white dark:bg-gray-800 rounded-t rounded-b-none overflow-hidden shadow-lg p-5">
-							<RichText v-if="presentacion" :block="{body: presentacion.descripcion}"></RichText>
+							<ContentRenderer :value="data" />
 						</div>
 					</div>
-					<Posts></Posts>
+					<!-- <Posts></Posts> -->
 				</div>
 			</div>
 		</div>
@@ -26,17 +26,8 @@
 </template>
 
 <script setup lang="ts">
-	import { Presentacion } from '~/types';
-
-	const presentacion = ref<Presentacion>()
-	const { findOne } = useStrapi()
-	const { data, pending, refresh, error } = await useAsyncData(
-		'presentacion',
-		() => findOne<Presentacion>('presentacion')
-	)
-
-	if(data.value?.data !== undefined) presentacion.value = {...data.value?.data.attributes}
-
+	const { data, pending, refresh, error } = await useAsyncData('presentacion', () => queryContent('/presentacion').findOne())
+	
 	useHead({
 		title: 'Home'
 	})
