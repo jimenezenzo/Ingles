@@ -13,13 +13,9 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     '@nuxtjs/color-mode',
-    "@nuxtjs/strapi",
     "@nuxt/content",
     "@kevinmarrec/nuxt-pwa"
   ],
-  // strapi: {
-  //   url: import.meta.env.VITE_API_URL
-  // },
   colorMode: {
     classSuffix: ''
   },

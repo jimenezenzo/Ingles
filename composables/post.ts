@@ -1,4 +1,3 @@
-import { Strapi4ResponseData } from "@nuxtjs/strapi/dist/runtime/types"
-import { Post} from "~/types"
+import { ParsedContent } from "@nuxt/content/dist/runtime/types";
 
-export const usePosts = () => useState<Strapi4ResponseData<Post>[]>('posts', () => [])
+export const usePosts = () => useState<ParsedContent[]>('posts', () => [])
