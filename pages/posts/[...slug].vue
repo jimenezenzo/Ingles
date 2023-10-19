@@ -1,8 +1,9 @@
 <template>
     <div class="leading-normal tracking-normal">
-        <div class="container max-w-5xl mx-auto">
-            <div class="mx-0 sm:mx-6 rounded shadow min-h-screen">
-                <div class="bg-gray-200 dark:bg-gray-800 w-full p-8 md:p-24 text-xl md:text-2xl leading-normal">
+        <div class="max-w-6xl mx-auto fondo-image" :style="`background-image:url('${data.image.src}');`"></div>
+        <div class="container max-w-5xl mx-auto md:-mt-32">
+            <div class="mx-0 mb-8 sm:mx-6">
+                <div class="bg-gray-200 dark:bg-gray-800 w-full p-8 md:p-24 text-xl md:text-2xl rounded-lg">
                     <ContentDoc class="prose max-w-none dark:prose-invert" />
                 </div>
             </div>
@@ -10,7 +11,27 @@
         </div>
     </div>
 </template>
-    
+
 <script setup>
     const url = useRoute().path
+
+    const { data } = await useAsyncData(
+		'post', 
+		() => queryContent(url).only('image').findOne()
+	)
 </script>
+
+<style scoped>
+    .fondo-image { 
+        height: 30vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .fondo-image {
+            height: 75vh;
+        }
+    }
+</style>
