@@ -1,7 +1,19 @@
 ---
 title: 'Clase 1'
 description: 'Nunc id sapien id urna suscipit semper eget non nunc'
-imgdestacada: '/posts/messi.jpeg'
+image:
+  src: '/posts/messi.jpeg'
+  alt: 'An image showcasing My Page.'
+  width: 400
+  height: 300
+head:
+  meta:
+    - name: 'keywords'
+      content: 'literatura, poesia, gramatica'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'enzo jimenez'
 ---
 ![fondo](/posts/messi.jpeg){style="max-width: 100%; margin: 0;"}
 

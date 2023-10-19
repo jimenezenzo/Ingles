@@ -1,7 +1,19 @@
 ---
 title: 'Clase 2'
 description: 'Nulla luctus finibus lorem, eget varius...'
-imgdestacada: '/posts/messi2.jpeg'
+image:
+  src: '/posts/messi2.jpeg'
+  alt: 'An image showcasing My Page.'
+  width: 400
+  height: 300
+head:
+  meta:
+    - name: 'keywords'
+      content: 'literatura, poesia, gramatica'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'enzo jimenez'
 ---
 ![fondo](/posts/messi2.jpeg){style="max-width: 100%; margin: 0;"}
 
