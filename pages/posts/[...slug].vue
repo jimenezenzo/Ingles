@@ -14,11 +14,7 @@
 
 <script setup>
     const url = useRoute().path
-
-    const { data } = await useAsyncData(
-		'post', 
-		() => queryContent(url).only('image').findOne()
-	)
+    const data = usePosts().value.find(p => p._path === url)
 </script>
 
 <style scoped>
