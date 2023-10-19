@@ -2,8 +2,8 @@
 	<div class="leading-normal tracking-normal">
 		<div class="w-full m-0 p-0 bg-cover bg-bottom estilos-index">
 			<div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
-				<p class="text-white font-extrabold text-3xl md:text-5xl">Lengua y Literatura</p>
-				<p class="text-xl md:text-2xl text-white">Bienvenido al curso</p>
+				<p class="text-white font-extrabold text-3xl md:text-5xl">English 2nd year</p>
+				<p class="text-xl md:text-2xl text-white">Welcome to the course</p>
 			</div>
 		</div>
 
