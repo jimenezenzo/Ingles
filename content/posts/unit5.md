@@ -9,7 +9,7 @@ image:
 head:
   meta:
     - name: 'keywords'
-      content: 'Inglish, Possessive, can, can't, Present continuous, Present simple or present continuous?'
+      content: 'Inglish, Possessive, Can, Present continuous, Present simple or present continuous'
     - name: 'robots'
       content: 'index, follow'
     - name: 'author'
