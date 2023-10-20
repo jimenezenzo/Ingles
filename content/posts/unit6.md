@@ -50,7 +50,7 @@ they > them (Please help **them.**)
   _I enjoy watch**ing** football on TV, but I prefer be**ing** there._
 
 ## Be or do?
-**be**
+_**be**_
 
 #### EXAMPLES
 1. Hi, I[**'m**] Jim.  
@@ -65,8 +65,8 @@ they > them (Please help **them.**)
 2. We also use _be_ to form the present continuous. _Be_ here is an auxiliary verb.
     - Remember to invert be and the subject to make questions.
     _He's Spanish. **Is he** Spanish?_  
-    _**do / does**_
 
+_**do / does**_
 #### EXAMPLES
 1. I'm **doing** my homework.  
   Do you **do** your homeowrk regularly?

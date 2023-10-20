@@ -61,13 +61,14 @@ _a lot (of)_ with countable and uncountable nouns for a **big quantity.**
 _quite a lot (of)_ for a **medium quantity.**  
 _a little / not…much_ with uncountable nouns for a **small quantity.**  
 _a few / not…many_ with countable plural nouns for a **small quantity.**  
-_not…any_ (none in short answers) for **zero quantity.**  
+_not…any_ (none in short answers) for **zero quantity.** 
+
 _**a lot of and much / many**_
-    - In \[+\] sentences we usually use _a lot of._
-    - In \[+\] sentences and \[?\] we usually use _much_ and _many._  
-    _I don’t drink **much** water. Do you drink **much** coffee?_
-    - It is also possible to use _a lot of_ in \[+\] and \[?\].  
-    _I don’t eat **a lot of** vegetables. Do you drink **a lot of** coffee?_
+  - In \[+\] sentences we usually use _a lot of._
+  - In \[-\] sentences and \[?\] we usually use _much_ and _many._  
+  _I don’t drink **much** water. Do you drink **much** coffee?_
+  - It is also possible to use _a lot of_ in \[-\] and \[?\].  
+  _I don’t eat **a lot of** vegetables. Do you drink **a lot of** coffee?_
 
 ## Comparative adjectives
 #### EXAMPLES
