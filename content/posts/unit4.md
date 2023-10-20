@@ -37,26 +37,15 @@ head:
 
 ## Prepositions of time (at, in, on)
 #### EXAMPLES
-**in**  
-the morning  
-the afternoon  
-the evening  
-the summer  
-December  
-2018  
-
-**on**  
-Monday (morning)  
-1 January  
-
-**at**  
-three o'clock  
-midday / midnight  
-lunchtime  
-night  
-the weekend  
-Christmas  
-
+|    **in**   |      **on**    |    **at**      |
+|:-----------:|:--------------:|:--------------:|
+|the morning  |Monday (morning)|three o'clock   |
+|the afternoon|1 January       |midday / midnigh|
+|the evening  |                |lunchtime       |
+|the summer   |                |the weekend     |
+|December     |                |Christmas       |
+|2018         |                |                |
+ 
 #### FORM
 - We use in for parts of the day, seasons, months and years.
 - We use on for days and dates.
