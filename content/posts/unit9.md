@@ -32,6 +32,28 @@ uncountable = things you can't count, e.g. _rice, meat_ **NOT** _two rices, thre
 _an ice cream_ = one ice cream in your hand  
 _some ice cream_ = ice cream in a bowl
 
+_**a / an, some / any**_
+#### EXAMPLES
+\[+\] **countable**  
+We need **an** apple. We need **some** apples.  
+\[+\] **uncountable**  
+We need **some** butter.  
+
+\[–\] **countable**   
+We don't need **a** tomato. We don't need **any** tomatoes.  
+\[–\] **uncountable**   
+We don't need **any** rice.  
+
+\[?\] **countable**   
+Do we need **an** orange? Do we need **any** oranges?  
+\[?\] **uncountable**   
+Do we need **any** sugar?
+
+#### FORM
+- We use _a / an_ with singular countable nouns. _a / an_ = one.
+- We use _some_ in \[+\] with plural countable nouns and with uncountable nouns.
+- We use _any_ in \[–] and \[?\] with plural countable nouns and with uncountable nouns.
+
 ## Quantifiers
 #### EXAMPLES
 **uncountable (singular)**  
