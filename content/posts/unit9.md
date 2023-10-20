@@ -47,11 +47,11 @@ _some ice cream_ = ice cream in a bowl
 **countable (plural)**  
 **How many** sweets do you eat?  
 
-**short answers / full answers**
-**A lot.** / I eat **a lot of** sweets.
-**Quite a lot.** / I eat **quite a lot of** sweets.
-**A few.** / I eat **a few** sweets.
-**Not many.** / I **don’t** eat **many** sweets.
+**short answers / full answers**  
+**A lot.** / I eat **a lot of** sweets.  
+**Quite a lot.** / I eat **quite a lot of** sweets.  
+**A few.** / I eat **a few** sweets.  
+**Not many.** / I **don’t** eat **many** sweets.  
 **None.** / I **don’t** eat **any** sweets
 
 #### FORM
@@ -63,10 +63,10 @@ _a little / not…much_ with uncountable nouns for a **small quantity.**
 _a few / not…many_ with countable plural nouns for a **small quantity.**  
 _not…any_ (none in short answers) for **zero quantity.**  
 _**a lot of and much / many**_
-    - In \[:heavy_plus_sign:\] sentences we usually use _a lot of._
-    - In \[:heavy_minus_sign:\] sentences and \[:grey_question:\] we usually use _much_ and _many._  
+    - In \[+\] sentences we usually use _a lot of._
+    - In \[+\] sentences and \[?\] we usually use _much_ and _many._  
     _I don’t drink **much** water. Do you drink **much** coffee?_
-    - It is also possible to use _a lot of_ in \[:heavy_minus_sign:\] and \[:grey_question:\].  
+    - It is also possible to use _a lot of_ in \[+\] and \[?\].  
     _I don’t eat **a lot of** vegetables. Do you drink **a lot of** coffee?_
 
 ## Comparative adjectives
