@@ -10,7 +10,7 @@
     "start": "node .output/server/index.mjs"
   },
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "devDependencies": {
     "@kevinmarrec/nuxt-pwa": "^0.17.0",
