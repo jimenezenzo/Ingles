@@ -3,7 +3,7 @@
         <div class="max-w-6xl mx-auto fondo-image" :style="`background-image:url('${data.image.src}');`"></div>
         <div class="container max-w-5xl mx-auto md:-mt-32">
             <div class="mx-0 mb-8 sm:mx-6">
-                <div class="bg-gray-200 dark:bg-gray-800 w-full p-8 md:p-24 text-xl md:text-2xl rounded-lg">
+                <div class="bg-slate-100 dark:bg-gray-800 w-full p-8 md:p-24 text-xl md:text-2xl rounded-lg">
                     <ContentDoc class="prose prose-headings:no-underline md:prose-lg lg:prose-x max-w-none dark:prose-invert" />
                 </div>
             </div>

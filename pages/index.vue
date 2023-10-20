@@ -7,13 +7,11 @@
 			</div>
 		</div>
 
-		<div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+		<div class="container px-4 md:px-0 max-w-8xl mx-auto -mt-32">
 			<div class="mx-0 sm:mx-6">
-				<div class="bg-gray-100 dark:bg-gray-700 p-4 w-full leading-normal rounded-t">
-					<div class="flex h-full bg-white rounded overflow-hidden shadow-lg">
-						<div class="flex-1 bg-gray-200 dark:bg-gray-800 rounded-t rounded-b-none overflow-hidden shadow-lg p-5">
-							<ContentRenderer class="prose max-w-none dark:prose-invert" :value="data"/>
-						</div>
+				<div class="bg-slate-100 dark:bg-gray-700 p-4 md:p-8 w-full leading-normal rounded">
+					<div class="bg-slate-200 dark:bg-gray-800 rounded shadow-lg p-5">
+						<ContentRenderer class="prose max-w-none dark:prose-invert" :value="data"/>
 					</div>
 					<Posts></Posts>
 				</div>
