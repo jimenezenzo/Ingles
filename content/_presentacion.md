@@ -1,3 +1,34 @@
-# Presentacion
+## Review of the unit 3 to 10
 
-Phasellus semper sodales velit et feugiat. Nulla luctus finibus lorem, eget varius augue gravida ac. Quisque euismod aliquam risus aliquet viverra. Curabitur tempus risus non ex commodo eleifend. Nunc id sapien id urna suscipit semper eget non nunc. Vestibulum fringilla tortor risus, ut posuere eros faucibus eu. Praesent in pretium arcu, vitae mattis erat.
+- **Unit 3:**
+    - Present simple \[+\] and \[–\]
+    - Present simple \[?\]
+    - Word order in questions
+- **Unit 4:**
+    - Possessive 's, Whose ...?
+    - Prepositions of time (at, in, on)
+    - Position of adverbs, expressions of frequency
+- **Unit 5:**
+    - Can / can't
+    - Present continuous
+    - Present simple or present continuous?
+- **Unit 6:**
+    - Object pronouns
+    - Like + verb + -ing
+    - Be or do?       
+- **Unit 7:**
+    - Past simple of be: was / were
+    - Past simple: regular verbs
+    - Past simple: irregular verbs
+- **Unit 8:**
+    - Past simple: regular and irregular
+    - There is / there are
+    - There was / there were
+- **Unit 9:**
+    - Countable / uncountable nouns
+    - Quantifiers
+    - Comparative adjectives
+- **Unit 10:**
+    - Superlative adjectives
+    - Be going to (plans), future time expressions
+    - Be going to (predictions)

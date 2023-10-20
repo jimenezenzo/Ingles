@@ -1,6 +1,6 @@
 ---
 title: 'Unit 3'
-description: 'Nulla luctus finibus lorem, eget varius...'
+description: 'English 2nd year'
 image:
   src: '/posts/unit3.png'
   alt: 'An image showcasing My Page.'
@@ -9,7 +9,7 @@ image:
 head:
   meta:
     - name: 'keywords'
-      content: 'inglish, present simple'
+      content: 'English, present simple'
     - name: 'robots'
       content: 'index, follow'
     - name: 'author'

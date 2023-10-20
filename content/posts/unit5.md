@@ -1,6 +1,6 @@
 ---
 title: 'Unit 5'
-description: 'Nulla luctus finibus lorem, eget varius...'
+description: 'English 2nd year'
 image:
   src: '/posts/unit5.png'
   alt: 'An image showcasing My Page.'
@@ -9,7 +9,7 @@ image:
 head:
   meta:
     - name: 'keywords'
-      content: 'Inglish, Possessive, Can, Present continuous, Present simple or present continuous'
+      content: 'English, Possessive, Can, Present continuous, Present simple or present continuous'
     - name: 'robots'
       content: 'index, follow'
     - name: 'author'

@@ -1,6 +1,6 @@
 ---
 title: 'Unit 4'
-description: 'Nulla luctus finibus lorem, eget varius...'
+description: 'English 2nd year'
 image:
   src: '/posts/unit4.png'
   alt: 'An image showcasing My Page.'
@@ -9,7 +9,7 @@ image:
 head:
   meta:
     - name: 'keywords'
-      content: 'Inglish, Possessive, Prepositions of time, Position of adverbs, expressions of frequency'
+      content: 'English, Possessive, Prepositions of time, Position of adverbs, expressions of frequency'
     - name: 'robots'
       content: 'index, follow'
     - name: 'author'
@@ -38,7 +38,7 @@ head:
 ## Prepositions of time (at, in, on)
 #### EXAMPLES
 |    **in**   |      **on**    |    **at**      |
-|:-----------:|:--------------:|:--------------:|
+|:------------|:---------------|:---------------|
 |the morning  |Monday (morning)|three o'clock   |
 |the afternoon|1 January       |midday / midnigh|
 |the evening  |                |lunchtime       |
