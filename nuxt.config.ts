@@ -32,5 +32,10 @@ export default defineNuxtConfig({
       theme_color: '#0d9488',
       lang: 'es',
     }
-  }
+  },
+  content: {
+    markdown: {
+      anchorLinks: false,
+    }
+  },
 })

@@ -1,5 +1,5 @@
 <template>
-    <p class="text-xl md:text-2xl text-gray pt-10 uppercase text-center">Clases</p>
+    <p class="text-xl md:text-2xl text-gray pt-10 uppercase text-center">Lessons</p>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <div v-for="post in posts" :key="post._path" class="col-auto py-3 flex flex-col flex-grow flex-shrink">
             <div class="flex-1 rounded overflow-hidden bg-white dark:bg-gray-800 shadow-lg border-solid border-2 border-gray-600">
