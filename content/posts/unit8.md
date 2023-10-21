@@ -60,6 +60,12 @@ head:
 _In my bedroom **there's** a bed, two chairs, and a desk._  
 _In the living room **there are** two armchairs and a sofa._
 
+### Some / any + plural nouns
+_**a / an, some and any**_
+- We often use _there is / isn't_ with _a / an_, and _there are / there aren't_ with _some_ and _any._
+- We use some and any with plural nouns. Some = not an exact number, e.g. _There are some eggs in the fridge._
+- We use _some_ in  \[+\] sentences, and _any_ in \[–\] and \[?\]. 
+
 ## There was / there were
 #### EXAMPLES
 **singular > plural**  

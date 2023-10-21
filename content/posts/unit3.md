@@ -38,6 +38,17 @@ habits.
 - **Contractions:** _don't = do not, doesn't = does not_.
 - To make negatives we _use don't / doesn't_ + verb (infinitive). _He doesn't **work**_. NOT _He doesn't works_.
 
+#### SPELLING RULES
+**for he / she / it**  
+I work / play / live. > He work**s** / play**s** / live**s**. (add _-s_)  
+I watch / finish. > She watch**es** / finish**es**. (add _-es_ after _ch, sh, s, x_)  
+I study. > She stud**ies**. (consonant + _y_  → _ies_)  
+
+**Be careful with some he / she / it forms.**  
+I have - he has **NOT** he haves  
+I go - he goes   
+I do - he does  
+
 ## Present simple \[?\]
 #### EXAMPLES
 '**Do** you live in New York?' 'No, I **don't**.'  

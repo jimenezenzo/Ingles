@@ -51,6 +51,23 @@ head:
 - We use on for days and dates.
 - We use at for times of the day, night, the weekend and festivals.
 
+## Prepositions of place and movement
+#### EXAMPLES
+1. He has lunch **at** work.  
+   He works in **an** office.  
+2. He goes **to** work at 8.00.
+
+#### FORM
+1. We use _at_ and _in_ for place.
+    - We use _at + work, home, school, university._
+    - We use _in_ + other places, e.g. _a flat, an office, a room,_ etc.
+    - We can use _in_ or _at_ with some public places, e.g. _a restaurant, the cinema,_ etc.  
+      _On Saturdays he usually has lunch **in / at** a restaurant._
+2. We use to for movement or direction.  
+  She goes **to** the gym. **NOT** She goes at the gym.  
+  We don't use to before _home._  
+  _go home_ **NOT** _go to home_
+
 ## Position of adverbs, expressions of frequency
 #### EXAMPLES
 1. I **always** watch TV in the evening.  
