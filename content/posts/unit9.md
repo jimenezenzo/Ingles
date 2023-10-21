@@ -32,7 +32,7 @@ uncountable = things you can't count, e.g. _rice, meat_ **NOT** _two rices, thre
 _an ice cream_ = one ice cream in your hand  
 _some ice cream_ = ice cream in a bowl
 
-_**a / an, some / any**_
+### a / an, some / any
 #### EXAMPLES
 \[+\] **countable**  
 We need **an** apple. We need **some** apples.  
@@ -85,7 +85,7 @@ _a little / not…much_ with uncountable nouns for a **small quantity.**
 _a few / not…many_ with countable plural nouns for a **small quantity.**  
 _not…any_ (none in short answers) for **zero quantity.** 
 
-_**a lot of and much / many**_
+### a lot of and much / many
   - In \[+\] sentences we usually use _a lot of._
   - In \[-\] sentences and \[?\] we usually use _much_ and _many._  
   _I don’t drink **much** water. Do you drink **much** coffee?_

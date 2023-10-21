@@ -58,3 +58,5 @@ I **went** to Iceland in December. I **didn't go** to New York.
 - We use the infinitive after _did / didn't._  
   _**Did** you **go** out last night?_ **NOT** _Did you went ...?_
 - Remember word order in questions: **ASI** (**A**uxiliary, **S**ubject, **I**nfinitive), e.g. _Did you go shopping yesterday?_ **QUASI** (**Qu**estion word, **A**uxiliary, **S**ubject, **I**nfinitive), e.g. _Where did you go?_
+
+[List of verbs](/referencias/verbs)

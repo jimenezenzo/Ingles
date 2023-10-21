@@ -4,7 +4,6 @@ import tailwindTypography from '@tailwindcss/typography'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  // ssr: false,
   app: {
     head: {
       titleTemplate: 'English | %s',
@@ -27,8 +26,8 @@ export default defineNuxtConfig({
   },
   pwa: {
     manifest: {
-      name: 'Literatura app',
-      short_name: 'Literatura app',
+      name: 'English 2nd year',
+      short_name: 'English 2nd',
       theme_color: '#0d9488',
       lang: 'es',
     }
