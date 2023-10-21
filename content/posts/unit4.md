@@ -54,7 +54,7 @@ head:
 ## Prepositions of place and movement
 #### EXAMPLES
 1. He has lunch **at** work.  
-   He works in **an** office.  
+   He works **in** an office.  
 2. He goes **to** work at 8.00.
 
 #### FORM
