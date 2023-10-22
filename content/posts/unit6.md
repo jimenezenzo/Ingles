@@ -31,7 +31,7 @@ they > them (Please help **them.**)
 - Pronouns take the place of nouns.
 - We use **subject** pronouns when the noun is the subject of the verb (i.e. the person who does the action).  
   _**John** is a doctor. **He** lives in London._
-- We use object pronouns when the noun is the object of the verb (i.e. the person who receives the action).  
+- We use **object** pronouns when the noun is the object of the verb (i.e. the person who receives the action).  
   _Anna knows **John.** She sees **him** every week._
 - Object pronouns go after the verb.  
   _I **love you**._ **NOT** _I you love._
