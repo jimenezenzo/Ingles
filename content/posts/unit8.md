@@ -53,12 +53,12 @@ head:
 
 #### FORM
 **there is / there are**  
-• We use _there is / there are_ to say that something exists or doesn't exist, e.g. _There's a bathroom upstairs. There isn't a bathroom downstairs._  
-• We use _there is_ + a singular noun and _there are_ + plural nouns.  
-• _There is_ is often contracted to _There's. There are_ is not usually contracted.  
-• When we talk about a list of things, we use _there is_ if the first thing in the list is singular and _there are_ if the first thing in the list is plural.  
-_In my bedroom **there's** a bed, two chairs, and a desk._  
-_In the living room **there are** two armchairs and a sofa._
+- We use _there is / there are_ to say that something exists or doesn't exist, e.g. _There's a bathroom upstairs. There isn't a bathroom downstairs._  
+- We use _there is_ + a singular noun and _there are_ + plural nouns.  
+- _There is_ is often contracted to _There's. There are_ is not usually contracted.  
+- When we talk about a list of things, we use _there is_ if the first thing in the list is singular and _there are_ if the first thing in the list is plural.  
+   _In my bedroom **there's** a bed, two chairs, and a desk._  
+   _In the living room **there are** two armchairs and a sofa._
 
 ### Some / any + plural nouns
 _**a / an, some and any**_

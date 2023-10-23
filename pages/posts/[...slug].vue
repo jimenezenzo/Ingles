@@ -1,8 +1,8 @@
 <template>
     <div class="max-w-6xl mx-auto fondo-image" :style="`background-image:url('${data.image.src}');`"></div>
     <div class="container max-w-8xl mx-auto md:-mt-32">
-        <div class="bg-slate-100 md:bg-white dark:bg-gray-800 p-4 md:p-24 text-xl md:text-2xl rounded-lg">
-            <ContentDoc class="prose prose-headings:no-underline md:prose-lg lg:prose-x max-w-none dark:prose-invert" />
+        <div class="bg-slate-100 md:bg-white dark:bg-gray-800 p-4 md:p-24 rounded-lg">
+            <ContentDoc class="max-w-none prose prose-headings:no-underline md:prose-lg lg:prose-x dark:prose-invert" />
         </div>
         <div class="px-4 md:px-0">
             <Posts :url="url"></Posts>
