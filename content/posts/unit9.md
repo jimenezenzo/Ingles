@@ -26,7 +26,7 @@ rice, meat
 
 #### FORM
 - English nouns can be **countable** and **uncountable.**  
-countable = things you can count, e.g. _apples._ Countable nouns can be singular _(an apple)_ or plural _(apples)._  
+countable = things you can count, e.g. _apples._ Countable nouns can be singular _(**an** apple)_ or plural _(apple**s**)._  
 uncountable = things you can't count, e.g. _rice, meat_ **NOT** _two rices, three meats._ Uncountable nouns are usually singular.
 - Some nouns can be countable and uncountable, e.g. _ice cream._  
 _an ice cream_ = one ice cream in your hand  
