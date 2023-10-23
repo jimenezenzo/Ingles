@@ -13,7 +13,8 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     '@nuxtjs/color-mode',
     "@nuxt/content",
-    "@kevinmarrec/nuxt-pwa"
+    "@kevinmarrec/nuxt-pwa",
+    '@nuxthq/studio'
   ],
   colorMode: {
     classSuffix: ''
