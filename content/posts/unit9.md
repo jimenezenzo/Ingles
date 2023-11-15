@@ -35,17 +35,20 @@ _some ice cream_ = ice cream in a bowl
 ### a / an, some / any
 #### EXAMPLES
 \[+\] **countable**  
-We need **an** apple. We need **some** apples.  
+We need **an** apple.  
+We need **some** apples.  
 \[+\] **uncountable**  
 We need **some** butter.  
 
 \[–\] **countable**   
-We don't need **a** tomato. We don't need **any** tomatoes.  
+We don't need **a** tomato.  
+We don't need **any** tomatoes.  
 \[–\] **uncountable**   
 We don't need **any** rice.  
 
 \[?\] **countable**   
-Do we need **an** orange? Do we need **any** oranges?  
+Do we need **an** orange?  
+Do we need **any** oranges?  
 \[?\] **uncountable**   
 Do we need **any** sugar?
 
