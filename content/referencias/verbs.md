@@ -56,7 +56,7 @@ description: 'Regular verbs and irregular verbs'
 |Feel (sentir)          |Felt              |felt                |
 |Find (encontrar)       |Found             |faund               |
 |Fly (volar)            |Flew              |flu                 |
-|Forger (olvidar)       |Forgot            |forgot              |
+|Forget (olvidar)       |Forgot            |forgot              |
 |Get (llegar/conseguir) |Got               |got                 |
 |Give (dar)             |Gave              |geiv                |   
 |Go (ir)                |Went              |went                |
