@@ -1,9 +1,11 @@
 <template>
     <div class="sticky top-0 z-50 bg-teal-600">
-        <nav class="flex items-center justify-between flex-wrap p-6">
-            <div class="flex items-center flex-shrink-0 text-white md:mr-6">
-                <img src="/favicon.ico" alt="iconn" class="rounded w-10 mr-2">
-                <span class="font-semibold text-xl tracking-tight">English</span>
+        <nav class="flex items-start justify-between flex-wrap p-6">
+            <div class="text-white md:mr-6">
+                <NuxtLink class="flex items-center" to="/">
+                    <img src="/favicon.ico" alt="iconn" class="rounded w-10 mr-2">
+                    <span class="font-semibold text-xl tracking-tight">English</span>
+                </NuxtLink>
             </div>
             <button
                 class="md:order-last flex items-center px-3 py-2 border rounded border-white dark:border-transparent dark:bg-white"
@@ -23,27 +25,7 @@
                 </svg>
             </button>
             <div :class="['w-full flex-grow lg:flex lg:items-center lg:w-auto', classObject]">
-                <!-- <div class="lg:flex-grow">
-                    <NuxtLink to="/" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-teal-200 mr-4">Home
-                    </NuxtLink>
-                </div> -->
-                <div class="md:w-1/2 mt-2 md:mt-0">
-                    <label for="default-search"
-                        class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-                    <div class="relative">
-                        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                            <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none"
-                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                            </svg>
-                        </div>
-                        <input type="search" id="default-search" v-model="search"
-                            class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="Search content" required>
-                    </div>
-                </div>
-                <pre>{{ results }} </pre>
+                <Search/>
             </div>
         </nav>
     </div>
@@ -51,11 +33,8 @@
 
 <script setup>
 const isActive = ref(false)
-const search  = ref('')
-
 const { colorMode, changeColor } = useColor()
 const classObject = computed(() => isActive.value ? 'block' : 'hidden')
-//const results = searchContent(search)
 
 onMounted(() => colorMode.preference = localStorage.getItem('theme') ?? 'light')
 </script>

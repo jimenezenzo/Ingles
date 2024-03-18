@@ -31,7 +31,7 @@ export default defineEventHandler(async event => {
 			this.add({
 				title: post.title,
 				content: parse(post.body),
-				slug: post._path.split('/').pop(),
+				slug: post._path,
 			})
 		})
 	})
