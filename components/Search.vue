@@ -18,7 +18,7 @@
         </div>
         <div class="block w-full p-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" v-if="postsSearch.length > 0">
             <ul v-for="post in postsSearch">
-                <NuxtLink v-if="post.score >= 1" @click="clearSearch" :to="post.ref" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-teal-200 mr-4">{{ post.ref.split('/').pop() }}</NuxtLink>
+                <NuxtLink v-if="post.score >= 1" @click="clearSearch" :to="post.ref" class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-400 dark:hover:text-teal-200 mr-4">{{ post.ref.split('/').pop() }}</NuxtLink>
             </ul>
         </div>
     </div>
