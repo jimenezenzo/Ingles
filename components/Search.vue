@@ -35,7 +35,6 @@ watch(search, async () => {
         loading.value = true
         try {
             const { data } = await useFetch('/api/search?q=' + search.value)
-            console.log(data.value)
             postsSearch.value = data.value
         } catch (error) {
             errorResponse.value = 'Error! Could not reach the API. ' + error
