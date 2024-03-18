@@ -36,6 +36,17 @@ export default defineNuxtConfig({
   content: {
     markdown: {
       anchorLinks: false,
-    }
+    },
   },
+  build: {
+    transpile: [
+      'lunr-languages/lunr.stemmer.support',
+      'lunr-languages/lunr.es',
+    ]
+  },
+  nitro: {
+    prerender: {
+      routes: ['/index.json']
+    }
+  }
 })
