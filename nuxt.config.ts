@@ -1,5 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
-
 import tailwindTypography from '@tailwindcss/typography'
 
 export default defineNuxtConfig({
@@ -37,16 +35,8 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     },
-  },
-  build: {
-    transpile: [
-      'lunr-languages/lunr.stemmer.support',
-      'lunr-languages/lunr.es',
-    ]
-  },
-  nitro: {
-    prerender: {
-      routes: ['/searcher.json']
+    experimental: {
+      search: true
     }
-  }
+  },
 })

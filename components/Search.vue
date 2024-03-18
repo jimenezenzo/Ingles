@@ -11,19 +11,20 @@
             <input type="search" id="default-search" v-model="search"
                 class="block w-full p-3 pl-10 text-sm text-gray-900 border border-gray-300 bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
                 placeholder="Search content" required>
-        </div>
-        <div class="block w-full text-sm text-gray-900 border border-gray-300 rounded-b-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
-            v-if="postsSearch.length > 0">
-            <ul v-for="post in postsSearch">
-                <NuxtLink @click="clearSearch" :to="post.ref"
-                    class="block p-2 hover:bg-gray-300 dark:hover:bg-gray-400">{{ post.ref.split('/').pop() }}
-                </NuxtLink>
-            </ul>
+            <div class="block absolute w-full text-sm text-gray-900 border border-gray-300 rounded-b-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                v-if="postsSearch.length > 0">
+                <ul v-for="post in postsSearch">
+                    <NuxtLink @click="clearSearch" :to="post.id"
+                        class="block p-2 hover:bg-gray-300 dark:hover:bg-gray-400">
+                        {{ post.title }} - {{ post.titles.join(' - ') }}
+                    </NuxtLink>
+                </ul>
+            </div>
         </div>
     </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 const search = ref('')
 const loading = ref(false)
 const postsSearch = ref([])
@@ -33,10 +34,11 @@ watch(search, async () => {
     if (search.value.length > 2 && loading.value == false) {
         loading.value = true
         try {
-            const { data } = await useFetch('/api/search?q=' + search.value)
+            const data = await searchContent(search.value, {})
             postsSearch.value = data.value
         } catch (error) {
             errorResponse.value = 'Error! Could not reach the API. ' + error
+            console.error(errorResponse)
         } finally {
             loading.value = false
         }
