@@ -9,10 +9,8 @@ export default defineEventHandler(async event => {
 	}
 
 	const query = getQuery(event)
-
-	const index = await $fetch('/searcher.json')
-
-	const lunrIndex = lunr.Index.load(index)
+	const searcher = await $fetch('/searcher.json')
+	const lunrIndex = lunr.Index.load(searcher)
 
 	return lunrIndex.search(String(query.q))
 })

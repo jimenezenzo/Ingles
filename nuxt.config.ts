@@ -46,7 +46,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ['/index.json']
+      routes: ['/searcher.json']
     }
   }
 })
