@@ -34,7 +34,7 @@ watch(search, async () => {
     if (search.value.length > 2 && loading.value == false) {
         loading.value = true
         try {
-            const data = await searchContent(search.value, {})
+            const data = await searchContent(search.value)
             postsSearch.value = data.value
         } catch (error) {
             errorResponse.value = 'Error! Could not reach the API. ' + error
