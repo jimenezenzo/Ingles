@@ -73,6 +73,24 @@ finish   finish**es**   add -es after ch, s, sh, x
 go / do   go**es** / do**es**   add -es  
 have   ha**s**   change to -s  
 
+## Adverbs and expressions of frequency
+
+#### EXAMPLES
+1. We **often** go out on Friday night.  
+  She doesn't **usually** study at weekends.  
+  I'm **never** ill.  
+  He's **always** late for work.  
+
+2. She gets up early **every day.**  
+  We have English classes **twice a week.**  
+
+#### FORM
+1. We often use the present simple with adverbs of frequency (_always, often, sometimes, usually, hardly ever, never_). 
+    - Adverbs of frequency go **before** the main verb. 
+    - Adverbs of frequency go **after** be. She’s never ill. **NOT** She’s ill never. 
+    - Remember to use a \[+\] verb with never. It never rains. **NOT** It doesn’t never rain. 
+2. Expressions of frequency (_every day, once a week, etc._) usually go at the end of a sentence.  
+
 ## Present continuous: be + verb + -ing
 
 #### EXAMPLES

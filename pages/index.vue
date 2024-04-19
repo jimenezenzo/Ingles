@@ -7,19 +7,11 @@
 	</div>
 
 	<div class="container px-4 mx-auto -mt-32 max-w-8xl">
-		<!-- <div class="bg-slate-100 md:bg-white dark:bg-slate-800 rounded shadow-lg p-5">
-			<ContentRenderer class="prose max-w-none dark:prose-invert" :value="data"/>
-		</div> -->
 		<Posts></Posts>
 	</div>
 </template>
 
 <script setup>
-	// const { data } = await useAsyncData(
-	// 	'presentacion', 
-	// 	() => queryContent('_presentacion').where({ _partial: true }).findOne()
-	// )
-	
 	useHead({
 		title: 'Home'
 	})
