@@ -13,7 +13,7 @@
     "node": "18.x"
   },
   "devDependencies": {
-    "@kevinmarrec/nuxt-pwa": "^0.17.0",
+    "@kevinmarrec/nuxt-pwa": "^0.0.2",
     "@nuxt/devtools": "latest",
     "@nuxthq/studio": "^1.0.2",
     "@nuxtjs/color-mode": "^3.3.0",
