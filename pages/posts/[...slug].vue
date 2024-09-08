@@ -5,14 +5,14 @@
             <ContentDoc class="max-w-none prose prose-headings:no-underline md:prose-lg lg:prose-x dark:prose-invert" />
         </div>
         <div class="px-4 md:px-0">
-            <Posts :url="url"></Posts>
+            <Posts :path="path"></Posts>
         </div>
     </div>
 </template>
 
 <script setup>
-    const url = useRoute().path
-    const data = usePosts().value.find(p => p._path === url)
+    const path = useRoute().path
+    const data = usePosts().value.find(p => p._path === path)
 </script>
 
 <style scoped>
