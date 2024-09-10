@@ -27,20 +27,20 @@ head:
 
 #### FORM
 **I**  
-✔ I **'m going to give** a talk.  
-❌ I **'m not going to give** a talk.  
+\[+\] I **'m going to give** a talk.  
+\[–\] I **'m not going to give** a talk.  
 **You / We / They**  
-✔ You / We / They **'re going to give** a talk.  
-❌ You / We / They **aren't going to give** a talk.  
+\[+\] You / We / They **'re going to give** a talk.  
+\[–\] You / We / They **aren't going to give** a talk.  
 **He / She / It**  
-✔ He / She / It **'s going to give** a talk.  
-❌ He / She / It **isn't going to give** a talk.  
+\[+\] He / She / It **'s going to give** a talk.  
+\[–\] He / She / It **isn't going to give** a talk.  
 
 
-❔ **Are** you **going to** give a talk ?  
-✔ **Yes**, I **am**. ❌ **No**, I **'m not**.  
-❔ **Is** he **going to** give a talk ?  
-✔ **Yes**, he **is**. ❌ **No**, he **isn't**.  
+\[?\] **Are** you **going to** give a talk ?  
+\[+\] **Yes**, I **am**. \[–\] **No**, I **'m not**.  
+\[?\] **Is** he **going to** give a talk ?  
+\[+\] **Yes**, he **is**. \[–\] **No**, he **isn't**.  
 
 - We use be going to + infinitive to talk about future plans or intentions.  
 - We also use be going to + infinitive to make a prediction when we know or can see that something is going to happen, e.g.  
@@ -50,13 +50,13 @@ head:
 ## Present continuous (future arrangements)
 
 #### EXAMPLES
-✔  
+\[+\]  
 I **'m seeing** a friend tonight.  
 She **'s arriving** at lunchtime.  
-❌  
+\[–\]  
 She **isn't leaving** until Friday.  
 They **aren't coming** to the party.  
-❔  
+\[?\]  
 What **are** you **doing** this evening?  
 **Is** she **meeting** us at the restaurant?
 
