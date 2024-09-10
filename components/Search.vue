@@ -1,25 +1,9 @@
 <template>
     <div class="md:w-1/2 flex flex-col mt-2 md:mt-0">
-        <div class="">
-            <!-- <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none"
-                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                </svg>
-            </div> -->
+        <div class="container">
             <input type="search" id="default-search" v-model="search"
-                class="block w-full p-3 text-sm text-gray-900 border border-gray-300 bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                class="block w-full p-2 text-gray-900 border rounded border-gray-300 bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
                 placeholder="Search content" required>
-            <div class="block absolute w-full text-sm text-gray-900 border border-gray-300 rounded-b-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
-                v-if="postsSearch.length > 0">
-                <ul v-for="post in postsSearch">
-                    <NuxtLink @click="clearSearch" :to="post.id"
-                        class="block p-2 hover:bg-gray-300 dark:hover:bg-gray-400">
-                        {{ post.title }} - {{ post.titles.join(' - ') }}
-                    </NuxtLink>
-                </ul>
-            </div>
         </div>
     </div>
 </template>
@@ -27,15 +11,17 @@
 <script lang="ts" setup>
 const search = ref('')
 const loading = ref(false)
-const postsSearch = ref([])
 const errorResponse = ref('')
+const searchResult = useSearchResult()
+const isSearch = useIsSearch()
 
 watch(search, async () => {
     if (search.value.length > 2 && loading.value == false) {
+        isSearch.value = true
         loading.value = true
         try {
             const data = await searchContent(search.value)
-            postsSearch.value = data.value
+            searchResult.value = [...data.value]
         } catch (error) {
             errorResponse.value = 'Error! Could not reach the API. ' + error
             console.error(errorResponse)
@@ -43,15 +29,7 @@ watch(search, async () => {
             loading.value = false
         }
     } else {
-        postsSearch.value = []
+        isSearch.value = false
     }
 })
-
-const clearSearch = () => search.value = ''
 </script>
-
-<style>
-input {
-    font-size: 16px;
-}
-</style>
