@@ -1,50 +1,46 @@
-import tailwindTypography from '@tailwindcss/typography'
+import tailwindTypography from "@tailwindcss/typography";
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-
   app: {
     head: {
-      titleTemplate: 'English | %s',
-    }
+      titleTemplate: "English | %s",
+      meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }
+      ]
+    },
   },
-
   modules: [
     "@nuxtjs/tailwindcss",
-    '@nuxtjs/color-mode',
+    "@nuxtjs/color-mode",
     "@nuxt/content",
     "@kevinmarrec/nuxt-pwa",
-    '@nuxthq/studio'
+    "@nuxthq/studio",
   ],
-
   colorMode: {
-    classSuffix: ''
+    classSuffix: "",
   },
-
   tailwindcss: {
     config: {
       plugins: [tailwindTypography],
-      darkMode: 'class',
-    }
+      darkMode: "class",
+    },
   },
-
   pwa: {
     manifest: {
-      name: 'English 2nd year',
-      short_name: 'English 2nd',
-      theme_color: '#0d9488',
-      lang: 'es',
-    }
+      name: "English 2nd year",
+      short_name: "English 2nd",
+      theme_color: "#0d9488",
+      lang: "es",
+    },
   },
-
   content: {
     markdown: {
       anchorLinks: false,
     },
     experimental: {
-      search: true
-    }
+      search: true,
+    },
   },
-
-  compatibilityDate: '2024-09-10',
-})
+  compatibilityDate: "2024-09-10",
+});
