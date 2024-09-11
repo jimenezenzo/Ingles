@@ -2,11 +2,13 @@ import tailwindTypography from '@tailwindcss/typography'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   app: {
     head: {
       titleTemplate: 'English | %s',
     }
   },
+
   modules: [
     "@nuxtjs/tailwindcss",
     '@nuxtjs/color-mode',
@@ -14,15 +16,18 @@ export default defineNuxtConfig({
     "@kevinmarrec/nuxt-pwa",
     '@nuxthq/studio'
   ],
+
   colorMode: {
     classSuffix: ''
   },
+
   tailwindcss: {
     config: {
       plugins: [tailwindTypography],
       darkMode: 'class',
     }
   },
+
   pwa: {
     manifest: {
       name: 'English 2nd year',
@@ -31,6 +36,7 @@ export default defineNuxtConfig({
       lang: 'es',
     }
   },
+
   content: {
     markdown: {
       anchorLinks: false,
@@ -39,4 +45,6 @@ export default defineNuxtConfig({
       search: true
     }
   },
+
+  compatibilityDate: '2024-09-10',
 })
