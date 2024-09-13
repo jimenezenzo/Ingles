@@ -1,6 +1,6 @@
 <template>
     <div class="sticky top-0 z-50 bg-teal-600">
-        <nav class="flex items-start justify-between flex-wrap px-4 pt-4 pb-2">
+        <nav class="flex items-start justify-between flex-wrap px-4 py-2">
             <div v-if="!isSearch" class="text-white md:mr-6">
                 <NuxtLink class="flex items-center" to="/">
                     <img src="/favicon.ico" alt="iconn" class="rounded w-10 mr-2">

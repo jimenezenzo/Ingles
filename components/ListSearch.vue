@@ -1,5 +1,5 @@
 <template>
-    <div class="text-gray-900 border border-gray-300 rounded-b-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
+    <div class="px-4 text-gray-900 bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
         <ul v-for="post in resultSearch">
             <NuxtLink @click="clearSearch" :to="post.id" class="flex py-2 hover:bg-gray-300 dark:hover:bg-gray-400">
                 <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none"
