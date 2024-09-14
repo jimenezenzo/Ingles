@@ -20,11 +20,11 @@ head:
 ## Present perfect
 
 #### EXAMPLES
-1.  I<b>'ve cleaned</b> the fridge – it looks new!  
+1.  I<strong>'ve cleaned</strong> the fridge – it looks new!  
     He **hasn't done** the washing up. Can you help me do it?  
     A The concert starts soon. **Have** you **turned off** your phone?  
     B Yes, **I have.**
-2.  Mary<b>'s had</b> her baby!  
+2.  Mary<strong>'s had</strong> her baby!  
     A parcel **has arrived** for you.
 
 #### FORM
@@ -38,8 +38,8 @@ I / you / we / they **have finished** the washing up.
 He / she / it / **has finished** the washing up.
 
 **Contraction**  
-I<b>'ve</b> / you<b>'ve</b> / we<b>'ve</b> / they<b>'ve</b> **finished** the washing up.  
-He<b>'s</b> / she<b>'s</b> / it<b>'s</b> **finished** the washing up. 
+I<strong>'ve</strong> / you<strong>'ve</strong> / we<strong>'ve</strong> / they<strong>'ve</strong> **finished** the washing up.  
+He<strong>'s</strong> / she<strong>'s</strong> / it<strong>'s</strong> **finished** the washing up. 
 
 **Negative**  
 I / you / we / they **haven't finished** the washing up.   
@@ -57,10 +57,10 @@ Yes, he / she / it **has**. No, he / she / it **hasn't**.
 ## Present perfect: experiences and unfinished time
 
 #### EXAMPLES
-She<b>'s been</b> to New York three times.  
+She<strong>'s been</strong> to New York three times.  
 **Have** you **ever been** to Ikea?  
-I<b>'ve never met</b> Nina's husband.  
-He<b>'s seen</b> that film twice.
+I<strong>'ve never met</strong> Nina's husband.  
+He<strong>'s seen</strong> that film twice.
 
 #### FORM
 We often use the present perfect to talk about past experiences or to talk about the recent past when we don't specify a time. 
@@ -74,7 +74,7 @@ B Yes, **I have.**
 A When **did** you **go** there?   
 B I **went** last year.
 
-A Jack<b>'s broken</b> his leg!   
+A Jack<strong>'s broken</strong> his leg!   
 B Oh no! When **did** that **happen**?  
 A Yesterday. He **broke** it playing football.
 

@@ -20,20 +20,20 @@ head:
 ## Be going to (plans and predictions)
 
 #### EXAMPLES
-1. I **'m going to give** a talk at the conference.  
-   He **'s going to meet** me at the airport.  
+1. I<strong>'m going to give</strong> a talk at the conference.  
+   He<strong>'s going to meet</strong> me at the airport.  
 2. I'm sure England **are going to lose** tomorrow.  
-   It **'s going to rain** tonight.  
+   It<strong>'s going to rain</strong> tonight.  
 
 #### FORM
 **I**  
-\[+\] I **'m going to give** a talk.  
-\[–\] I **'m not going to give** a talk.  
+\[+\] I<strong>'m going to give</strong> a talk.  
+\[–\] I<strong>'m not going to give</strong> a talk.  
 **You / We / They**  
-\[+\] You / We / They **'re going to give** a talk.  
+\[+\] You / We / They<strong>'re going to give</strong> a talk.  
 \[–\] You / We / They **aren't going to give** a talk.  
 **He / She / It**  
-\[+\] He / She / It **'s going to give** a talk.  
+\[+\] He / She / It<strong>'s going to give</strong> a talk.  
 \[–\] He / She / It **isn't going to give** a talk.  
 
 
@@ -44,15 +44,15 @@ head:
 
 - We use be going to + infinitive to talk about future plans or intentions.  
 - We also use be going to + infinitive to make a prediction when we know or can see that something is going to happen, e.g.  
-    _It's winter there, so it **'s going to be** cold._  
-    _Look at that car! It **'s going to crash**._
+    _It's winter there, so it<strong>'s going to be</strong> cold._  
+    _Look at that car! It<strong>'s going to crash</strong>._
 
 ## Present continuous (future arrangements)
 
 #### EXAMPLES
 \[+\]  
-I **'m seeing** a friend tonight.  
-She **'s arriving** at lunchtime.  
+I<strong>'m seeing</strong> a friend tonight.  
+She<strong>'s arriving</strong> at lunchtime.  
 \[–\]  
 She **isn't leaving** until Friday.  
 They **aren't coming** to the party.  
