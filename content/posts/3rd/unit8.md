@@ -22,13 +22,10 @@ head:
 
 #### EXAMPLES
 
-1. You **should** leave your boyfriend.\:br
-   She's very stressed. She **shouldn't** work so hard.\:br
-   You **shouldn't** drink coffee in the evening. It's keep you awake.
-2. I think you **should** get a new job.\:br
-   I don't think you **should** speak to him.
+1. You **should** leave your boyfriend She's very stressed. She **shouldn't** work so hard. You **shouldn't** drink coffee in the evening. It's keep you awake.
+2. I think you **should** get a new job. I don't think you **should** speak to him.
 
 #### FORM
 
-1. We use _should / shouldn't_ + verb (infinitive without to) to give somebody advice or say what we think is the right thing to do.\:br\_should / shouldn't is the same for all persons\_
+1. We use _should / shouldn't_ + verb (infinitive without to) to give somebody advice or say what we think is the right thing to do.\_should / shouldn't is the same for all persons\_
 2. We often use _I think you should ... or I don't think you should ..._ _NOT_  _I think you shouldn't._
