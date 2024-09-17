@@ -8,5 +8,5 @@
 </template>
 
 <script setup>
-    const isSearch = useIsSearch()
+const isSearch = useIsSearch()
 </script>
