@@ -6,8 +6,17 @@ export default defineNuxtConfig({
     head: {
       titleTemplate: "English | %s",
       meta: [
-        { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }
-      ]
+        {
+          name: "viewport",
+          content:
+            "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+        },
+      ],
+      script: [
+        {
+          src: "https://code.responsivevoice.org/responsivevoice.js?key=Vk66Qo77",
+        },
+      ],
     },
   },
   modules: [

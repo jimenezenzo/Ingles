@@ -13,14 +13,6 @@
 <script setup>
 const path = useRoute().path
 const data = usePosts().value.find(p => p._path === path)
-
-useHead({
-    script: [
-        {
-            src: 'https://code.responsivevoice.org/responsivevoice.js?key=Vk66Qo77',
-        }
-    ]
-})
 </script>
 
 <style scoped>
