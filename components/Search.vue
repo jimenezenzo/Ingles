@@ -21,7 +21,7 @@ const onIsSearch = () => isSearch.value = !isSearch.value
 
 watch(search, async () => {
     if (search.value.length > 2) {
-        const data = await searchContent(search.value)
+        const data = await searchContent(search)
         searchResult.value = [...data.value]
     }
 })
