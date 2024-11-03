@@ -28,9 +28,8 @@ head:
     A parcel **has arrived** for you.
 
 #### FORM
-1.  We often use the present perfect to talk about the recent past and its relationship with the present, e.g. 
-_I've cleaned the fridge, so now it looks new._ We don't say exactly when things happened, e.g. 
-_I've cleaned the fridge._ **NOT** _I've cleaned the fridge ten minutes ago._
+1.  We often use the present perfect to talk about the recent past and its relationship with the present, e.g. _I've cleaned the fridge, so now it looks new._  
+We don't say exactly when things happened, e.g. _I've cleaned the fridge._ **NOT** _I've cleaned the fridge ten minutes ago._
 2.  We often use the present perfect to give recent news.
 
 **Full form**  
